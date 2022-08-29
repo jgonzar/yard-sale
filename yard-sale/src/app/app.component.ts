@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'yard-sale';
+
+  onLoaded(img:string){
+    console.log('loaded parent');
+  }
 }
